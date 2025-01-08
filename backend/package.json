@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["backend", "express", "mongodb"],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
+  "description": "Backend for the MERN stack project",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.12",
@@ -19,5 +19,8 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
