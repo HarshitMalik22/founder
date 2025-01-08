@@ -1,0 +1,53 @@
+.applications-container {
+    padding: 2rem;
+    background-color: #121212; /* Black background */
+    color: #e0e0e0; /* Light gray text */
+  }
+  
+  h1 {
+    color: #bb86fc; /* Light purple heading */
+  }
+  
+  .no-applications {
+    text-align: center;
+    color: #bb86fc;
+    margin-top: 2rem;
+  }
+  
+  .applications-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .application-card {
+    background-color: #1e1e2f; /* Dark purple background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .application-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .application-content h2 {
+    color: #bb86fc;
+    margin: 0.5rem 0;
+  }
+  
+  .application-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+  }
+  
+  .application-content ul li {
+    margin: 0.3rem 0;
+  }
+  

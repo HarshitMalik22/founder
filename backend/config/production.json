@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://harshitmalik29:founder@founder.t3pxx.mongodb.net/?retryWrites=true&w=majority&appName=founder",
+    "jwtSecret": "a57f4a8e8b98e7d21fc8c5f2c95e904d12413dbfa11fbd869eb872f43284719f"
+  }

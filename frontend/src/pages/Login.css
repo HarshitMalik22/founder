@@ -1,0 +1,89 @@
+/* frontend/src/pages/Login.css */
+
+body {
+    background-color: #1c1c28;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .login-card {
+    background-color: #29293d;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #bb86fc;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c1c28;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 0 1px #3e3e58;
+  }
+  
+  .login-input::placeholder {
+    color: #7a7a9c;
+  }
+  
+  .login-button {
+    background-color: #bb86fc;
+    color: #1c1c28;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .login-button:hover {
+    background-color: #9b6edc;
+  }
+  
+  .error-message {
+    color: #ff5252;
+    margin-top: 10px;
+  }
+  
+  .signup-redirect {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signup-redirect a {
+    color: #bb86fc;
+    text-decoration: none;
+  }
+  
+  .signup-redirect a:hover {
+    text-decoration: underline;
+  }
+  
