@@ -8,6 +8,6 @@
     "react-router-dom": "^7.1.1",
     "react-swipeable": "^7.0.2",
     "react-tinder-card": "^1.6.4",
-    "react-scripts": "^5.0.0"  // Add this line here
+    "react-scripts": "^5.0.0"
   }
 }
